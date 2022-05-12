@@ -76,13 +76,13 @@ galaxy:
   stage: deploy
   needs: []
   script:
-    - ansible-galaxy role info buluma.digitalocean-agent
+    - ansible-galaxy role info buluma.digitalocean_agent
 
 role_testing:
   stage: test
   needs: []
   script:
-    - image=${image} tag=${tag} ansible-galaxy install buluma.digitalocean-agent
+    - image=${image} tag=${tag} ansible-galaxy install buluma.digitalocean_agent
   retry: 1
   parallel:
     matrix:
