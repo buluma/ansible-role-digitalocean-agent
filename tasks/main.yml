@@ -1,9 +1,5 @@
 ---
 # tasks file for digitalocean-agent
-- name: Set timezone to Africa/Nairobi
-  community.general.timezone:
-    name: Africa/Nairobi
-
 - name: import rpm key
   ansible.builtin.rpm_key:
     key: "{{ digitalocean_agent_gpgkey }}"
