@@ -2,9 +2,9 @@
 
 Install digitalocean agent on your system.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-digitalocean-agent/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-digitalocean-agent)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/digitalocean-agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -47,11 +47,11 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.apt_autostart](https://galaxy.ansible.com/buluma/apt_autostart)|[![Build Status GitHub](https://github.com/buluma/ansible-role-apt_autostart/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-apt_autostart/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-apt_autostart/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-apt_autostart)|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-ca_certificates/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ca_certificates)|
+|[buluma.apt_autostart](https://galaxy.ansible.com/buluma/apt_autostart)|[![Build Status GitHub](https://github.com/buluma/ansible-role-apt_autostart/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-apt_autostart/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_autostart.svg)](https://github.com/shadowwalker/ansible-role-apt_autostart)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ca_certificates.svg)](https://github.com/shadowwalker/ansible-role-ca_certificates)|
 
 ## [Context](#context)
 
@@ -93,7 +93,6 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
