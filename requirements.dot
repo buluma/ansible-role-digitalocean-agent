@@ -1,0 +1,13 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "digitalocean_agent" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.apt_autostart" [fillcolor=green style=filled]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.ca_certificates" [fillcolor=green style=filled]
+  }
+  "digitalocean_agent" -> "buluma.apt_autostart"
+  "digitalocean_agent" -> "buluma.bootstrap"
+  "digitalocean_agent" -> "buluma.ca_certificates"
+}
