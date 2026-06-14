@@ -5,7 +5,7 @@
   ansible.builtin.rpm_key:
     key: "{{ digitalocean_agent_gpgkey }}"
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "yum" ]
+    - ansible_facts.pkg_mgr in [ "dnf", "dnf5", "yum" ]
 
 - name: Import apt key
   ansible.builtin.get_url:
@@ -23,7 +23,7 @@
     force: false
     mode: "0640"
   when:
-    - ansible_facts.pkg_mgr in [ "yum", "dnf", "apt" ]
+    - ansible_facts.pkg_mgr in [ "yum", "dnf", "dnf5", "apt" ]
   notify:
     - Update apt cache
 
