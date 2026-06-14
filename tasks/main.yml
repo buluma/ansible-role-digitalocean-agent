@@ -5,7 +5,7 @@
   ansible.builtin.rpm_key:
     key: "{{ digitalocean_agent_gpgkey }}"
   when:
-    - ansible_facts.pkg_mgr in [ "dnf", "dnf5", "yum" ]
+    - ansible_facts['pkg_mgr'] in [ "dnf", "dnf5", "yum" ]
 
 - name: Import apt key
   ansible.builtin.get_url:
@@ -14,7 +14,7 @@
     validate_certs: "{{ digitalocean_agent_validate_certs }}"
     mode: "0644"
   when:
-    - ansible_facts.pkg_mgr == "apt"
+    - ansible_facts['pkg_mgr'] == "apt"
 
 - name: Install repository
   ansible.builtin.copy:
@@ -23,7 +23,7 @@
     force: false
     mode: "0640"
   when:
-    - ansible_facts.pkg_mgr in [ "yum", "dnf", "dnf5", "apt" ]
+    - ansible_facts['pkg_mgr'] in [ "yum", "dnf", "dnf5", "apt" ]
   notify:
     - Update apt cache
 
