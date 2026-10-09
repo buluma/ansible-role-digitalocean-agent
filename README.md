@@ -1,10 +1,10 @@
-# [Ansible role digitalocean-agent](#ansible-role-digitalocean-agent)
+# [Ansible role digitalocean_agent](#ansible-role-digitalocean_agent)
 
 Install digitalocean agent on your system.
 
 |GitHub|Issues|Pull Requests|Version|Downloads|
 |------|------|-------------|-------|---------|
-|[![github](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/digitalocean-agent)](https://galaxy.ansible.com/ui/standalone/roles/buluma/digitalocean-agent/documentation)|
+|[![github](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/digitalocean_agent)](https://galaxy.ansible.com/ui/standalone/roles/buluma/digitalocean_agent/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: buluma.digitalocean-agent
+    - role: buluma.digitalocean_agent
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-digitalocean-agent/blob/master/molecule/default/prepare.yml):
