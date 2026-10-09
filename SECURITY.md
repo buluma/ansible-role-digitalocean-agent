@@ -14,7 +14,7 @@ These version of [ansible](https://pypi.org/project/ansible/) are supported:
 
 ## [Reporting a Vulnerability](#reporting-a-vulnarability)
 
-Please [open an issue](https://github.com/buluma/ansible-role-digitalocean-agent/issues) describing the vulnerability.
+Please [open an issue](https://github.com/buluma/ansible-role-digitalocean_agent/issues) describing the vulnerability.
 
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
