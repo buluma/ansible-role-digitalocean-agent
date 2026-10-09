@@ -70,7 +70,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v7
         with:
-          path: ansible-role-digitalocean-agent
+          path: ansible-role-digitalocean_agent
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -98,11 +98,11 @@ jobs:
 
       - name: Test with molecule
         run: |
-          cd ansible-role-digitalocean-agent
+          cd ansible-role-digitalocean_agent
           molecule test
         env:
           PY_COLORS: 1
           ANSIBLE_FORCE_COLOR: 1
-          ANSIBLE_ROLES_PATH: ~/.ansible/roles:${GITHUB_WORKSPACE}/ansible-role-digitalocean-agent
+          ANSIBLE_ROLES_PATH: ~/.ansible/roles:${GITHUB_WORKSPACE}/ansible-role-digitalocean_agent
           image: ${{ matrix.distro.image }}
           tag: ${{ matrix.distro.tag }}

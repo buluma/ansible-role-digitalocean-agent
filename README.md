@@ -1,14 +1,14 @@
-# [Ansible role digitalocean-agent](#ansible-role-digitalocean-agent)
+# [Ansible role digitalocean_agent](#ansible-role-digitalocean_agent)
 
 Install digitalocean agent on your system.
 
 |GitHub|Issues|Pull Requests|Version|Downloads|
 |------|------|-------------|-------|---------|
-|[![github](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean-agent.svg)](https://github.com/buluma/ansible-role-digitalocean-agent/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/digitalocean-agent)](https://galaxy.ansible.com/ui/standalone/roles/buluma/digitalocean-agent/documentation)|
+|[![github](https://github.com/buluma/ansible-role-digitalocean_agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-digitalocean_agent/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-digitalocean_agent.svg)](https://github.com/buluma/ansible-role-digitalocean_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-digitalocean_agent.svg)](https://github.com/buluma/ansible-role-digitalocean_agent/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-digitalocean_agent.svg)](https://github.com/buluma/ansible-role-digitalocean_agent/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/digitalocean_agent)](https://galaxy.ansible.com/ui/standalone/roles/buluma/digitalocean_agent/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-digitalocean-agent/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-digitalocean_agent/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
 ---
@@ -18,10 +18,10 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: buluma.digitalocean-agent
+    - role: buluma.digitalocean_agent
 ```
 
-The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-digitalocean-agent/blob/master/molecule/default/prepare.yml):
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-digitalocean_agent/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
@@ -70,7 +70,7 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-digitalocean-agent/blob/master/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-digitalocean_agent/blob/master/requirements.txt).
 
 ## [State of used roles](#state-of-used-roles)
 
@@ -88,7 +88,7 @@ This role is part of many compatible roles. Have a look at [the documentation of
 
 Here is an overview of related roles:
 
-![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-digitalocean-agent/png/requirements.png "Dependencies")
+![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-digitalocean_agent/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
@@ -107,11 +107,11 @@ The minimum version of Ansible required is 2.12, tests have been done on:
 - The current version.
 - The development version.
 
-If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-digitalocean-agent/issues).
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-digitalocean_agent/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-digitalocean-agent/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-digitalocean_agent/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
